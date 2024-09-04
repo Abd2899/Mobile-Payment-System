@@ -1,0 +1,35 @@
+<?php
+include 'connect.php';
+session_start();
+$_SESSION['mobile']=$serno;
+?>
+<body background=mb.jpg><center>
+<h1>Online Electricity Bill Payment</h1>
+<form name="dthrecharge" method="post" >
+ Service  Number <input type="text" name="mobile" maxlength="13">
+<br/><br/><br />
+<a href="payment.html">Make payment </a>
+</form>
+</center>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
